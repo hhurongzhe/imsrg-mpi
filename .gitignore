@@ -1,0 +1,67 @@
+.vscode/
+build/
+#CMake output files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+CMakeUserPresets.json
+CTestTestfile.cmake
+Testing/
+#Output compiled libraries
+*.o
+*.so
+*.gz
+*.a
+#Compiled executables
+src/imsrg++
+#Temporary files
+tmp*
+src/.*.swp
+#Macos specific files
+.DS_Store
+#Image files for apptained
+*.sifs
+#Work folders should only contain the examples scripts
+work/
+__pycache__
+# MPI build and benchmark artifacts
+/build-mpi/
+/temp/mpi_bench/
+/.deps/
+
+# Local build trees, dependencies, and calculation workspaces
+/build-*/
+/cmake-build-*/
+/temp/
+/input/
+/output/
+/results/
+/scratch/
+/.agents/
+/.codex/
+/.aws/
+
+# Compiler, Python, editor, and scheduler artifacts
+*.so.*
+*.dylib
+*.py[cod]
+*.swp
+*.swo
+*~
+*.log
+slurm-*.out
+slurm-*.err
+*.o[0-9]*
+*.e[0-9]*
+
+# Nuclear interaction files and generated effective operators
+*.me2j
+*.me3j
+*.snt
+*.int
+*.bin
+flow*.dat
+
+# Generated CTest configuration
+/DartConfiguration.tcl
